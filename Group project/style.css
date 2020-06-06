@@ -1,0 +1,181 @@
+body {
+	background-color: #dee1e2;
+}
+
+.container {
+	background-color: #465274;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	opacity: flex 0.5;
+}
+
+.container ul li {
+	list-style: none;
+	text-align: right;
+	font-family: "Flamenco", cursive;
+	margin-bottom: 0;
+	flex-wrap: wrap;
+	display: flex;
+	padding-left: 0;
+	display: inline-block;
+	justify-content: space-between;
+}
+
+.container ul li a {
+	width: 90px;
+	font-family: "Flamenco", cursive;
+	font-size: 1em;
+	color: #cbd3da;
+	text-align: center;
+	justify-content: space-between;
+	margin-bottom: 0;
+	display: flex;
+	margin-left: 2.7em;
+	margin-right: 0;
+	padding-left: 3px;
+	text-shadow: 1px;
+	text-decoration: none;
+
+}
+
+.container ul li a:hover {
+	color: #777272;
+	opacity: 0.5;
+	text-transform: uppercase;
+	width: 90px;
+	cursor: pointer;
+
+}
+
+.tolk p {
+	font-family: "Flamenco", cursive;
+	font-size: 1.26em;
+}
+
+.guyo {
+	height: 100%;
+}
+
+.goto {
+	font: bold 1.96em "Flamenco", cursive;
+}
+
+.fuho {
+	font: 1.28em "Flamenco";
+}
+
+.tolu ol li {
+	background-color: #636d6d;
+	border: 1.2em inset;
+	font: 5px "roboto", serif;
+}
+
+.jol p {
+	font: 1.23em "Pontano sans", sans-serif;
+	opacity: 0.5px;
+}
+
+.jol #p {
+	font: 1.5em "Pontano sans", sans-serif;
+	opacity: 0.5px;
+}
+
+.jol lop #swa {
+	font: 1em "Pontano sans", sans-serif;
+	opacity: 0.5px;
+}
+
+.get {
+	margin-top: 7em;
+	width: 67em;
+}
+
+.get tr td p {
+	margin: 0px;
+	font: 1em "Pontano sans"9;
+}
+
+.get #dew {
+	background-color: #465274;
+	color: #cbd3da;
+	font: 1.2em "Pontano", sans-serif;
+
+}
+
+.mil #rott {
+	background-color: rgba(138, 141, 141, 0.35);
+	border: 1px inset;
+	box-sizing: content-box;
+	font: 1.42em "Pontano", sans-serif;
+	width: 50.92em;
+}
+
+.mil {
+	margin: 2.8em;
+	width: 50em;
+}
+
+.tres {
+	margin-top: 20em;
+	padding: 0.5rem 1.2rem;
+	background-color: #465274;
+	border-top: 1px solid rgba(0, 0, 0, 0.28);
+	border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	height: 40vh;
+	margin-bottom: 0;
+}
+
+.tres p {
+	font-family: "Flamenco", cursive;
+	font-size: 1.9em;
+	color: #cbd3da;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.tres ul li a {
+	font-family: "Flamenco", cursive;
+	font-size: 1.5em;
+	color: #cbd3da;
+	text-decoration: none;
+}
+
+.tres ul li {
+	text-align: right;
+	display: block;
+}
+
+#form-signin {
+	border: 3px;
+	align-items: center;
+	width: 90%;
+	max-width: 50em;
+	margin: 200px;
+}
+
+#form-signin input {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	font-size: 16px;
+	margin-top: 1.5em;
+	width: 20em;
+	height: 5vh;
+	display: block;
+	border-radius: 1px;
+}
+
+#form-signin button {
+	width: 150px;
+	box-sizing: border-box;
+	background-color: #11598e;
+	margin-top: 1em;
+	border: none;
+	font: 27px "Flamenco", cursive;
+	color: #9aa2a2;
+	display: block;
+}

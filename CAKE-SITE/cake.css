@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bako {
+    background-image: url("117-EASY (4).jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    opacity: 2.5;
+    background-blend-mode: darken;
+}
+
+.container {
+    background-color: #494444d5;
+    text-align: center;
+    box-shadow: 5px #413d3def;
+}
+
+.container>.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.container>.nav-list>li {
+    width: 12%;
+    margin: 15px;
+    padding: 15px;
+}
+
+.container>.nav-list>li>a {
+    margin: 15px;
+    padding: 20px;
+    text-decoration: none;
+    color: #f552ac;
+}
+
+.container>.nav-list>li>a:hover {
+    background: #494444;
+    color: #f552ac;
+    border-radius: 3px;
+    transition: 0.55s ease-in-out;
+}
+
+
+/*.container>.nav-list>li>ul,*/
+
+.sub-menu {
+    display: none;
+}
+
+.container>.nav-list>li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: #494444;
+    margin-top: 15px;
+    margin-left: 37px;
+}
+
+
+/*.container>.nav-list>li:hover #sec-list,*/
+
+.container>.nav-list>li:hover .sub-menu>ul {
+    display: block;
+    margin: 10px;
+}
+
+
+/*.container>.nav-list>li:hover #sec-list>li,*/
+
+.container>.nav-list>li:hover .sub-menu>ul>li {
+    list-style: none;
+    width: inherit;
+    margin: 15px;
+    border-bottom: 1px dotted #f552ac;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.container>.nav-list>li:hover .sub-menu>ul>li:last-child {
+    border-bottom: none;
+}
+
+
+/*.container>.nav-list>li:hover #sec-list>li>a,*/
+
+.container>.nav-list>li:hover .sub-menu>ul>li>a {
+    text-decoration: none;
+    color: #f552ac;
+    font-family: Verdana;
+}
+
+.container>.nav-list>:hover .sub-menu>ul>li>a:hover {
+    margin-left: 10px;
+    transition: 0.55s ease-in-out;
+}
