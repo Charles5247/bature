@@ -1,18 +1,72 @@
+/* responsiveness of the full out-look of the website*/
+
 * {
     margin: 0;
     padding: 0;
+    max-zoom: 100%;
+    min-zoom: 1%;
 }
 
-.bako {
-    background-image: url("117-EASY (4).jpg");
+
+/* Styling of the full body of the web-pages and the scroll-bar*/
+
+.bako,
+.fako {
+    background: url("Tea-Cup.jpg");
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    opacity: 2.5;
     background-blend-mode: darken;
 }
+
+.bako::-webkit-scrollbar {
+    background-color: #494444;
+    height: 100vh;
+    width: 12px;
+    opacity: .5;
+}
+
+
+/*.bako::-webkit-scrollbar-button,*/
+
+.bako::-webkit-scrollbar-thumb {
+    max-width: 5px;
+    background-color: #f552ac;
+}
+
+
+/* styling of the home page plus other attributes and features */
+
+.intro {
+    width: 100%;
+    text-align: center;
+}
+
+.intro>.first {
+    color: #af2d74;
+    font-size: 500%;
+    max-zoom: 100%;
+}
+
+.intro>.secnd {
+    color: #dfd9d9;
+    font-size: 100%;
+}
+
+
+/* styling for home-page button */
+
+.click {
+    position: relative;
+    background-color: #494444;
+    opacity: 0.5;
+    
+}
+
+
+/* Styling of the navigation-Bar */
 
 .container {
     background-color: #494444d5;
@@ -45,9 +99,6 @@
     transition: 0.55s ease-in-out;
 }
 
-
-/*.container>.nav-list>li>ul,*/
-
 .sub-menu {
     display: none;
 }
@@ -60,16 +111,10 @@
     margin-left: 37px;
 }
 
-
-/*.container>.nav-list>li:hover #sec-list,*/
-
 .container>.nav-list>li:hover .sub-menu>ul {
     display: block;
     margin: 10px;
 }
-
-
-/*.container>.nav-list>li:hover #sec-list>li,*/
 
 .container>.nav-list>li:hover .sub-menu>ul>li {
     list-style: none;
@@ -85,9 +130,6 @@
     border-bottom: none;
 }
 
-
-/*.container>.nav-list>li:hover #sec-list>li>a,*/
-
 .container>.nav-list>li:hover .sub-menu>ul>li>a {
     text-decoration: none;
     color: #f552ac;
@@ -97,4 +139,25 @@
 .container>.nav-list>:hover .sub-menu>ul>li>a:hover {
     margin-left: 10px;
     transition: 0.55s ease-in-out;
+}
+
+.case {
+    bottom: 0;
+}
+
+
+/* Responsiveness of the main-body of the EVENTS page */
+
+.main-part {
+    background-color: #817b7f;
+    position: center;
+    overflow-y: 10px;
+}
+
+.main-part>img {
+    width: 15%;
+}
+
+.main-part>p {
+    font-size: 97%;
 }
