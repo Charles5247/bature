@@ -16,7 +16,6 @@
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
-    background-position: center;
     box-sizing: border-box;
     background-blend-mode: darken;
 }
@@ -45,7 +44,7 @@
 }
 
 .intro>.first {
-    color: #af2d74;
+    color: #d34593;
     font-size: 500%;
     max-zoom: 100%;
 }
@@ -59,10 +58,23 @@
 /* styling for home-page button */
 
 .click {
+    background: transparent;
     position: relative;
-    background-color: #494444;
-    opacity: 0.5;
-    
+    padding: 25px;
+    margin-left: 43%;
+    justify-self: center;
+    margin-top: 15%;
+    margin-right: 43%;
+    vertical-align: middle;
+    font-size: 25px;
+    text-decoration: none;
+    border: solid 5px #d34593;
+    border-radius: 2em;
+    color: #292727;
+}
+
+.click:hover {
+    border: none;
 }
 
 
