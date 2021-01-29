@@ -2,5 +2,6 @@
     "window.zoomLevel": 1,
     "mssql.resultsFontSize": 3,
     "prettier.singleQuote": true,
-    "editor.fontSize": 11
+    "editor.fontSize": 11,
+    "liveServer.settings.port": 5501
 }
